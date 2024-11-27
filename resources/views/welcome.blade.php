@@ -7,7 +7,7 @@
 		<div class="slider-outer">
 			<div class="main-slider-carousel owl-carousel owl-theme">
 				
-				<div class="slide style-two" style="background-image:url(images/resource/4.jpg)">
+				<div class="slide style-two" style="background-image:url({{ asset('images/resource/4.jpg') }})">
 					<div class="auto-container">
 						<div class="content">
 							<h1 class="alternate" style="border-style: solid; text-shadow: 2px 2px green;">Tropical Research and Conservation Centre</h1>
@@ -20,7 +20,7 @@
 					</div>
 				</div>
 				
-				<div class="slide style-two" style="background-image:url(images/resource/5.jpg)">
+				<div class="slide style-two" style="background-image:url({{ asset('images/resource/5.jpg') }})">
 					<div class="auto-container">
 						<div class="content">
 							<h1 class="alternate" style="border-style: solid; text-shadow: 2px 2px green;">Tropical Research and Conservation Centre</h1>
@@ -88,6 +88,19 @@
 					</div>
 				</div>
 
+				<div class="slide style-two" style="background-image:url(images/resource/11.jpg)">
+					<div class="auto-container">
+						<div class="content">
+							<h1 class="alternate" style="border-style: solid; text-shadow: 2px 2px green;">Tropical Research and Conservation Centre</h1>
+							<div class="text alternate">Environmental Conservation.Sustainable Agriculture.Community Health </div>
+							<div class="link-box">
+								<a href="{{ url('contact') }}" class="btn btn-lg btn-success">Contact Us</a> <a href="{{ url('projects') }}" class="theme-btn btn-style-seven">View Projects</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
 
 				<div class="slide style-two" style="background-image:url(images/resource/3.jpg)">
 					<div class="auto-container">
@@ -110,6 +123,55 @@
 		</div>
     </section>
     <!--End Main Slider-->
+
+
+	<!-- Services Section Three-->
+	<section class="services-section-three">
+		<div class="auto-container">
+			<div class="row clearfix">
+				
+				<!-- Services Block -->
+				<div class="services-block-three col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow bounceIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="icon-box">
+							<span class="icon flaticon-target-1"></span>
+						</div>
+						<h6><a href="#">Vision</a></h6>
+						<div class="text">TRCC’s vision is “a sound society in harmony with nature”. 
+						</div>
+					</div>
+				</div>
+				
+				<!-- Services Block -->
+				<div class="services-block-three col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow bounceIn" data-wow-delay="300ms" data-wow-duration="1500ms">
+						<div class="icon-box">
+							<span class="icon flaticon-research"></span>
+						</div>
+						<h6><a href="#">Mission</a></h6>
+						<div class="text">TRCC’s mission is to “create awareness, build capacity of rural communities (as well as disseminate innovative products and technologies), that could facilitate sustainable agriculture, environmental resources conservation, community healthy living, and indigenous resources preservation”.
+						</div>
+					</div>
+				</div>
+				
+				<!-- Services Block -->
+				<div class="services-block-three col-lg-4 col-md-12 col-sm-12">
+					<div class="inner-box wow bounceIn" data-wow-delay="600ms" data-wow-duration="1500ms">
+						<div class="icon-box">
+							<span class="icon flaticon-help"></span>
+						</div>
+						<h6><a href="#">Objectives</a></h6>
+						<div class="text">-To promote conservation of natural resources; educating rural communities, and the general public on environmental, economic, social, ecological and cultural needs for conservation of natural resources ;</div>
+						<div class="text">-To build community capacity in natural resources management;</div>
+						<div class="text">-To promote sustainable agricultural practices in rural communities in order to improve their livelihoods: organic farming mixed cropping, livestock production etc.</div>
+							</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</section>
+	
 	
 	<!-- About Section Two -->
 	<section class="about-section-two">
@@ -145,386 +207,137 @@
 		</div>
 	</section>
 	
-	<!-- Services Section Four-->
-	<section class="services-section-four">
-		<div class="auto-container">
-			<!-- Sec Title -->
-			<div class="sec-title">
-				<div class="clearfix">
-					<div class="pull-left">
-						<h2>We surve as the best <br> services <span>planner</span></h2>
-					</div>
-					<div class="pull-right">
-						<div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime you reach a review point you’ll end up reviewing and negotiating the content itself and not the design.</div>
-					</div>
-				</div>
-			</div>
-			<div class="row clearfix">
-				
-				<!-- Services Block Four -->
-				<div class="services-block-four col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/service-3.jpg" alt="">
-							<div class="overlay-box">
-								<div class="content">
-									<div class="icon-box">
-										<span class="icon flaticon-statistics-1"></span>
-									</div>
-									<h6>Business Strategy and <br> Planning</h6>
-								</div>
-							</div>
-							
-							<div class="overlay-box-two">
-								<div class="overlay-inner-two">
-									<div class="content">
-										<div class="icon-box">
-											<span class="icon flaticon-statistics-1"></span>
-										</div>
-										<h6><a href="services-single.html">Business Strategy and <br> Planning</a></h6>
-										<div class="text">The argument in favor of the using filler text goes some of thing like this</div>
-										<a class="read-more" href="services-single.html">Let’s start <span class="fa fa-angle-double-right"></span></a>
-									</div>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>	
-				
-				<!-- Services Block Four -->
-				<div class="services-block-four col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/service-4.jpg" alt="">
-							<div class="overlay-box">
-								<div class="content">
-									<div class="icon-box">
-										<span class="icon flaticon-target-1"></span>
-									</div>
-									<h6>Market Research and <br> Business Planning</h6>
-								</div>
-							</div>
-							
-							<div class="overlay-box-two">
-								<div class="overlay-inner-two">
-									<div class="content">
-										<div class="icon-box">
-											<span class="icon flaticon-target-1"></span>
-										</div>
-										<h6><a href="services-single.html">Market Research and Business Planning</a></h6>
-										<div class="text">The argument in favor of the using filler text goes some of thing like this</div>
-										<a class="read-more" href="services-single.html">Let’s start <span class="fa fa-angle-double-right"></span></a>
-									</div>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>	
-				
-				<!-- Services Block Four -->
-				<div class="services-block-four col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/service-3.jpg" alt="">
-							<div class="overlay-box">
-								<div class="content">
-									<div class="icon-box">
-										<span class="icon flaticon-bank-building"></span>
-									</div>
-									<h6>Market Research and <br> Business Planning</h6>
-								</div>
-							</div>
-							
-							<div class="overlay-box-two">
-								<div class="overlay-inner-two">
-									<div class="content">
-										<div class="icon-box">
-											<span class="icon flaticon-bank-building"></span>
-										</div>
-										<h6><a href="services-single.html">Bank Investment and <br> Savings</a></h6>
-										<div class="text">The argument in favor of the using filler text goes some of thing like this</div>
-										<a class="read-more" href="services-single.html">Let’s start <span class="fa fa-angle-double-right"></span></a>
-									</div>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>	
-				
-			</div>
-			
-			<div class="btn-box text-center">
-				<a href="services.html" class="theme-btn btn-style-two">More Services</a>
-			</div>
-			
-		</div>
-	</section>
-	<!-- End Services Section Four-->
-	
-	<!-- Business Section -->
-	<section class="business-section">
-		<div class="outer-container">
-			<div class="clearfix sticky-container">
-				
-				<!-- Title Column -->
-				<div class="title-column">
-					<div class="inner-column sticky-box">
-						<!-- Logo -->
-						<div class="logo">
-							<a href="index.html"><img src="images/logo.png" alt="" title=""></a>
-						</div>
-						<h2>Why you choose us to <br> build <span>your business?</span></h2>
-						<div class="text">The argument in favor of using filler text goes to some labore et dolore magna aliqua consectetur. Lorem ipsum dolor sit amet.</div>
-					</div>
-				</div>
-				
-				<!-- Contents Column -->
-				<div class="contents-column">
-					<div class="inner-column">
-						<!-- Title Box -->
-						<div class="title-box">
-							<h2>Learn some info from possive of <br> our <span>latest update</span></h2>
-						</div>
-						
-						<!-- Services Outer -->
-						<div class="services-blocks">
-							
-							<!-- Services Block Five -->
-							<div class="services-block-five">
-								<div class="inner-box">
-									<div class="icon-box">
-										<span class="icon flaticon-creativity"></span>
-									</div>
-									<h6><a href="#">Creative Ideas</a></h6>
-									<div class="text">The argument in favor of using filler text goes some labore et dolore magna aliqua consectetur.</div>
-								</div>
-							</div>
-							
-							<!-- Services Block Five -->
-							<div class="services-block-five">
-								<div class="inner-box">
-									<div class="icon-box">
-										<span class="icon flaticon-comment-1"></span>
-									</div>
-									<h6><a href="#">Risk Management</a></h6>
-									<div class="text">The argument in favor of using filler text goes some labore et dolore magna aliqua consectetur.</div>
-								</div>
-							</div>
-							
-							<!-- Services Block Five -->
-							<div class="services-block-five">
-								<div class="inner-box">
-									<div class="icon-box">
-										<span class="icon flaticon-layers"></span>
-									</div>
-									<h6><a href="#">Easy to manage fund</a></h6>
-									<div class="text">The argument in favor of using filler text goes some labore et dolore magna aliqua consectetur.</div>
-								</div>
-							</div>
-							
-						</div>
-						
-						<!-- Testimonial Boxed -->
-						<div class="testimonial-boxed" style="background-image:url(images/resource/image-2.jpg)">
-							<div class="inner-boxed">
-								<div class="inner-content">
-									<h2>Clients say <span>about us</span></h2>
-									<div class="single-item-carousel owl-carousel owl-theme">
-										
-										<!-- Testimonial Block Two -->
-										<div class="testimonial-block-two">
-											<div class="inner-box">
-												<div class="content-box">
-													<div class="text">The argument in favor of using filler text goes something like this: If you use real to content inext the design process, anytime you reach a review.</div>
-												</div>
-												<div class="lower-box">
-													<div class="lower-inner">
-														<div class="image"><img src="images/resource/author-4.jpg" alt="" title=""></div>
-														<h3>Natalia Brick</h3>
-														<div class="designation">Founder & CEO</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										
-										<!-- Testimonial Block Two -->
-										<div class="testimonial-block-two">
-											<div class="inner-box">
-												<div class="content-box">
-													<div class="text">The argument in favor of using filler text goes something like this: If you use real to content inext the design process, anytime you reach a review.</div>
-												</div>
-												<div class="lower-box">
-													<div class="lower-inner">
-														<div class="image"><img src="images/resource/author-4.jpg" alt="" title=""></div>
-														<h3>Natalia Brick</h3>
-														<div class="designation">Founder & CEO</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										
-										<!-- Testimonial Block Two -->
-										<div class="testimonial-block-two">
-											<div class="inner-box">
-												<div class="content-box">
-													<div class="text">The argument in favor of using filler text goes something like this: If you use real to content inext the design process, anytime you reach a review.</div>
-												</div>
-												<div class="lower-box">
-													<div class="lower-inner">
-														<div class="image"><img src="images/resource/author-4.jpg" alt="" title=""></div>
-														<h3>Natalia Brick</h3>
-														<div class="designation">Founder & CEO</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<!-- Awards Section -->
-						<div class="awards-blocks">
-							<div class="awards-inner">
-								<h2>Our winning <span>many awards</span> in business sectors</h2>
-								<div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime you reach a review point you’ll end up reviewing and negotiating.</div>
-								<ul class="clearfix">
-									<li><img src="images/clients/7.jpg" alt="" title=""></li>
-									<li><img src="images/clients/8.jpg" alt="" title=""></li>
-									<li><img src="images/clients/9.jpg" alt="" title=""></li>
-								</ul>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- End Business Section -->
-	
-	<!-- Faq Section -->
-	<section class="faq-section">
-		<div class="auto-container">
-			<div class="row clearfix">
-				
-				<!-- Faq Column -->
-				<div class="faq-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<div class="sec-title">
-							<h2>Frequently asked <span>question</span></h2>
-						</div>
-						
-						<!--Accordion Box-->
-						<ul class="accordion-box">
-
-							<!--Block-->
-							<li class="accordion block">
-								<div class="acc-btn active"><div class="icon-outer"><span class="icon icon-plus fa fa-arrow-right"></span> <span class="icon icon-minus fa fa-arrow-down"></span></div> <span class="icon-inner flaticon-pie-chart-3"></span>How do I find my Windows product key? <span class="arrow fa fa-angle-right"></span></div>
-								<div class="acc-content current">
-									<div class="content">
-										<p>The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime reach a review point you’ll end up reviewing and negotiating.</p>
-									</div>
-								</div>
-							</li>
-
-							<!--Block-->
-							<li class="accordion block">
-								<div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-arrow-right"></span> <span class="icon icon-minus fa fa-arrow-down"></span></div> <span class="icon-inner flaticon-up-arrow-1"></span>I've downloaded an ISO file, now what? <span class="arrow fa fa-angle-right"></span></div>
-								<div class="acc-content">
-									<div class="content">
-										<p>The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime reach a review point you’ll end up reviewing and negotiating.</p>
-									</div>
-								</div>
-							</li>
-
-							<li class="accordion block">
-								<div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-arrow-right"></span> <span class="icon icon-minus fa fa-arrow-down"></span></div> <span class="icon-inner flaticon-pyramid-scheme"></span>Is the media bootable? <span class="arrow fa fa-angle-right"></span></div>
-								<div class="acc-content">
-									<div class="content">
-										<p>The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime reach a review point you’ll end up reviewing and negotiating.</p>
-									</div>
-								</div>
-							</li>
-							
-						</ul>
-						
-					</div>
-				</div>
-				
-				<!-- Counter Column -->
-				<div class="counter-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<div class="row clearfix">
-							
-							<!--Image Column -->
-							<div class="column col-lg-6 col-md-6 col-sm-12">
-								<div class="image">
-									<img src="images/resource/counter-img.jpg" alt="" title="">
-								</div>
-							</div>
-							
-							<!--Content Column -->
-							<div class="column col-lg-6 col-md-6 col-sm-12">
-								
-								<div class="fact-counter style-two">
-									
-									<!--Column-->
-									<div class="column counter-column">
-										<div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-											<div class="count-outer count-box">
-												<span class="count-text" data-speed="2500" data-stop="1200">0</span>+
-												<h4 class="counter-title">Finishing Projects</h4>
-											</div>
-										</div>
-									</div>
-							
-									<!--Column-->
-									<div class="column counter-column">
-										<div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-											<div class="count-outer count-box">
-												<span class="count-text" data-speed="3000" data-stop="50">0</span>
-												<h4 class="counter-title">Winning Awards</h4>
-											</div>
-										</div>
-									</div>
-							
-									<!--Column-->
-									<div class="column counter-column">
-										<div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-											<div class="count-outer count-box">
-												<span class="count-text" data-speed="3500" data-stop="800">0</span>+
-												<h4 class="counter-title">Happy Clients</h4>
-											</div>
-										</div>
-									</div>
-							
-								</div>
-								
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			<div class="side-image" style="background-image:url(images/resource/image-3.jpg)"></div>
-		</div>
-	</section>
-	<!-- End Faq Section -->
-	
-	<!-- News Section Two -->
-	<section class="news-section-two">
+	<!-- Blog Grid Section -->
+	<section class="blog-grid-section" style="background-color: #f2f3fa;">
 		<div class="auto-container">
 			<!-- Sec Title -->
 			<div class="sec-title centered">
-				<h2>Learn some new info from <br> our latest <span>news</span></h2>
-				<div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime you <br> reach a review point you’ll end up reviewing and negotiating the content itself and not the design.</div>
+				<h2 style="color: #45A401">Our Projects</h2>
+
+			</div>
+			<div class="row clearfix">
+			
+				<!-- News Block Three -->
+				<div class="news-block-three col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<img style="width: 100%; height: 250px;" src="{{ asset('images/resource/4.jpg') }}" alt="" />
+							<a href="{{ asset('images/resource/4.jpg') }}" class="lightbox-image overlay-box"><span class="plus flaticon-plus-symbol"></span></a>
+						</div>
+						<div class="lower-content">
+							
+							<h4><a href="{{ url('environments') }}" style="color: #45A401">Environmental/Natural Resources Management</a></h4>
+							<a style="text-align: center;" href="{{ url('environments') }}" class="btn btn-lg btn-success">View more</a>
+						
+						</div>
+
+					</div>
+				</div>
+				
+				<!-- News Block Three -->
+				<div class="news-block-three col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<img style="width: 100%; height: 250px;" src="{{ asset('images/resource/2.jpg') }}" alt="" />
+							<a href="{{ asset('images/resource/2.jpg') }}" class="lightbox-image overlay-box"><span class="plus flaticon-plus-symbol"></span></a>
+						</div>
+						<div class="lower-content">
+							
+							<h4><a href="{{ url('agriculture') }}" style="color: #45A401"> Sustainable Agriculture</a></h4>
+							<a style="text-align: center;" href="{{ url('agriculture') }}" class="btn btn-lg btn-success">View more</a>
+						
+						</div>
+
+					</div>
+				</div>
+				
+				<!-- News Block Three -->
+				<div class="news-block-three col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<img style="width: 100%; height: 250px;" src="{{ asset('images/resource/33.jpg') }}" alt="" />
+							<a href="{{ asset('images/resource/33.jpg') }}" class="lightbox-image overlay-box"><span class="plus flaticon-plus-symbol"></span></a>
+						</div>
+						<div class="lower-content">
+							
+							<h4><a href="{{ url('ecotourism') }}" style="color: #45A401">Eco-Tourism</a></h4>
+							<a style="text-align: center;" href="{{ url('ecotourism') }}" class="btn btn-lg btn-success">View more</a>
+						
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- News Block Three -->
+				<div class="news-block-three col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<img style="width: 100%; height: 250px;" src="{{ asset('images/resource/44.jpg') }}" alt="" />
+							<a href="{{ asset('images/resource/44.jpg') }}" class="lightbox-image overlay-box"><span class="plus flaticon-plus-symbol"></span></a>
+						</div>
+						<div class="lower-content">
+							
+							<h4><a href="{{ url('communityhealth') }}" style="color: #45A401">Community Health</a></h4>
+							<a style="text-align: center;" href="{{ url('communityhealth') }}" class="btn btn-lg btn-success">View more</a>
+						
+						</div>
+					</div>
+				</div>
+
+
+				<!-- News Block Three -->
+				<div class="news-block-three col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<img style="width: 100%; height: 250px;" src="{{ asset('images/resource/32.jpg') }}" alt="" />
+							<a href="{{ asset('images/resource/32.jpg') }}" class="lightbox-image overlay-box"><span class="plus flaticon-plus-symbol"></span></a>
+						</div>
+						<div class="lower-content">
+							
+							<h4><a href="{{ url('renewablenergy') }}" style="color: #45A401">Renewable Energy</a></h4>
+							<a style="text-align: center;" href="{{ url('renewablenergy') }}" class="btn btn-lg btn-success">View more</a>
+						
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- News Block Three -->
+				<div class="news-block-three col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<img style="width: 100%; height: 250px;" src="{{ asset('images/resource/6.jpg') }}" alt="" />
+							<a href="{{ asset('images/resource/6.jpg') }}" class="lightbox-image overlay-box"><span class="plus flaticon-plus-symbol"></span></a>
+						</div>
+						<div class="lower-content">
+							
+							<h4><a href="{{ url('indigenousresources') }}" style="color: #45A401">Indigenous Resources</a></h4>
+							<a style="text-align: center;" href="{{ url('indigenousresources') }}" class="btn btn-lg btn-success">View more</a>
+						
+						</div>
+					</div>
+				</div>
+				
+			
+			</div>
+			
+			
+			
+		</div>
+		<div class="text-center">
+			<a  href="{{ url('projects') }}" class="btn btn-lg btn-success">View All Project</a>
+		</div>
+	</section>
+	<!-- End Blog Grid Section -->
+	<!-- News Section Two -->
+	<section class="news-section-two" style="margin-bottom: 30px;">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title centered">
+				<h2 style="color: #45A401">Our Blog</h2>
+				{{-- <div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process, anytime you <br> reach a review point you’ll end up reviewing and negotiating the content itself and not the design.</div> --}}
 			</div>
 			
 			<div class="row clearfix">
@@ -543,98 +356,20 @@
 								<li><span class="fa fa-calendar"></span>September 12, 2019</li>
 								<li><span class="fa fa-user"></span>Admin</li>
 							</ul>
-							<h5><a href="blog-single.html">Strategy for Norway's Peion Fund Global.</a></h5>
+							<h5><a style="color:#45A401" href="blog-single.html">Strategy for Norway's Peion Fund Global.</a></h5>
 							<a href="#" class="theme-btn btn-style-four">View more</a>
 						</div>
 					</div>
 				</div>
 				
-				<!-- News Block Two -->
-				<div class="news-block-two col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/news-5.jpg" alt="" />
-							<div class="overlay-box">
-								<a href="images/resource/news-5.jpg" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
-							</div>
-						</div>
-						<div class="lower-content">
-							<ul class="post-meta">
-								<li><span class="fa fa-calendar"></span>September 12, 2019</li>
-								<li><span class="fa fa-user"></span>Admin</li>
-							</ul>
-							<h5><a href="blog-single.html">What we are capable of usually gets discovered.</a></h5>
-							<a href="#" class="theme-btn btn-style-four">View more</a>
-						</div>
-					</div>
-				</div>
+					
 				
-				<!-- News Block Two -->
-				<div class="news-block-two col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/news-6.jpg" alt="" />
-							<div class="overlay-box">
-								<a href="images/resource/news-6.jpg" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
-							</div>
-						</div>
-						<div class="lower-content">
-							<ul class="post-meta">
-								<li><span class="fa fa-calendar"></span>September 12, 2019</li>
-								<li><span class="fa fa-user"></span>Admin</li>
-							</ul>
-							<h5><a href="blog-single.html">Food industry leaders often change their promoters.</a></h5>
-							<a href="#" class="theme-btn btn-style-four">View more</a>
-						</div>
-					</div>
-				</div>
 				
 			</div>
 			
 		</div>
 	</section>
 	
-	<!--Sponsors Section-->
-	<section class="sponsors-section">
-		<div class="auto-container">
-			
-			<div class="carousel-outer">
-                <!--Sponsors Slider-->
-                <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li><div class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/6.png" alt=""></a></div></li>
-					<li><div class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/6.png" alt=""></a></div></li>
-                </ul>
-            </div>
-			
-		</div>
-	</section>
-	<!--End Sponsors Section-->
 	
-	<!-- Call To Action Two -->
-	<section class="call-to-action-two">
-		<div class="auto-container">
-			<div class="clearfix">
-				
-				<div class="pull-left">
-					<h2>Request for <span>quote</span></h2>
-				</div>
-				<div class="pull-right">
-					<a href="contact.html" class="theme-btn btn-style-five">Request now <span class="icon fa fa-arrow-right"></span></a>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- End Call To Action Two -->
 	
 	@include('pages.common.footer')

@@ -40,13 +40,16 @@ class AdminController extends Controller
         $creds = $request->only('email', 'password');
         if (Auth::guard('admin')->attempt($creds)) {
             
-            return redirect('admin.home')->with('success', 'You have login successfully');
+            return redirect('admin/home')->with('success', 'You have login successfully');
         }else{
             
         }
         
     }
 
-
+public function home(){
+    
+    return view('dashboard.admin.home');
+}
     
 }

@@ -10,8 +10,8 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 
-<link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
-<link rel="icon" href="images/logo.jpg" type="image/x-icon">
+<link rel="shortcut icon" href="{{  asset('images/logo.jpg') }}" type="image/x-icon">
+<link rel="icon" href="{{  asset('images/logo.jpg') }}" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +37,7 @@
             	<div class="clearfix">
                 	
                 	<div class="pull-left logo-box">
-                    	<div class="logo"><a href="{{ url('/') }}"><img style="width: 100px; height: 100px;" src="images/logo.jpg" alt="" title=""></a></div>
+                    	<div class="logo"><a href="{{ url('/') }}"><img style="width: 100px; height: 100px;" src="{{ asset('images/logo.jpg') }}" alt="" title=""></a></div>
                     </div>
                    	
                    	<div class="nav-outer clearfix">
@@ -57,9 +57,8 @@
 									<li><a href="{{ url('/') }}">Home</a></li>
 									<li><a href="{{ url('about') }}">About Us</a></li>
 									<li><a href="{{ url('projects') }}">Projects</a></li>
+									<li><a href="{{ url('gallery') }}">Gallery</a></li>
 									<li><a href="{{ url('blog') }}">Blog</a></li>
-									{{-- <li><a href="{{ url('contact') }}">Projects</a></li> --}}
-
 									
 									<li><a href="{{ url('contact') }}">Contact us</a></li>
 								</ul>
@@ -84,7 +83,7 @@
         	<div class="auto-container clearfix">
             	<!--Logo-->
             	<div class="logo pull-left">
-                	<a href="{{ url('/') }}" class="img-responsive"><img style="width: 100px; height: 100px;" src="images/logo.jpg" alt="" title=""></a>
+                	<a href="{{ url('/') }}" class="img-responsive"><img style="width: 50px; height: 50px;" src="{{ asset('images/logo.jpg') }}" alt="" title=""></a>
                 </div>
                 
                 <!--Right Col-->
@@ -102,6 +101,8 @@
                                 <li><a href="{{ url('/') }}">Home</a></li>
 									<li><a href="{{ url('about') }}">About Us</a></li>
 									<li><a href="{{ url('projects') }}">Projects</a></li>
+									<li><a href="{{ url('gallery') }}">Gallery</a></li>
+
 									<li><a href="{{ url('blog') }}">Blog</a></li>
 									{{-- <li><a href="{{ url('contact') }}">Projects</a></li> --}}
 
